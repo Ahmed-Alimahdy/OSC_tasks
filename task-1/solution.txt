@@ -5,6 +5,7 @@ touch bad.txt
 mv one.txt /home/osc/Downloads
 cd ~/Downloads/
 cp one.txt copy.txt
+nano two.txt
 nano three.txt
 mv three.txt hello.txt
 rm four.txt
