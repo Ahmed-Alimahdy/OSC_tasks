@@ -1,0 +1,18 @@
+git config --global user.name "Ahmed-Alimahdy"
+git config --global user.mail "ahmedali.clash3@gmail.com"
+git clone https://github.com/Ahmed-Alimahdy/OSC_tasks
+cd OSC_tasks/
+mkdir task-2
+touch greeting.txt
+nano greeting.txt
+git add .
+git commit -m "Added greeting"
+git checkout -b intro
+nano greeting.txt
+git add .
+git commit -m "Added I love Git"
+git checkout main
+git merge intro
+git log --oneline
+git tag -a v1
+git push
