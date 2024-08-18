@@ -3,6 +3,7 @@ git config --global user.mail "ahmedali.clash3@gmail.com"
 git clone https://github.com/Ahmed-Alimahdy/OSC_tasks
 cd OSC_tasks/
 mkdir task-2
+cd task-2
 touch greeting.txt
 nano greeting.txt
 git add .
