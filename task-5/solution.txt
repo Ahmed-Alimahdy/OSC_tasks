@@ -1,0 +1,2 @@
+grep -oE "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" info.csv | sort | uniq | tee >> email.txt
+ps -o pid,com | sort -k 2 | tee >> processes.txt
